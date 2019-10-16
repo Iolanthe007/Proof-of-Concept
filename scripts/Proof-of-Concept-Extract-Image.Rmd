@@ -1,0 +1,20 @@
+#<!-- library(devtools) -->
+#<!-- install_github('viking/r-yaml') -->
+#<!-- read_yaml(giza) -->
+#<!-- install.packages("yaml") -->
+library(yaml)
+yamldata <- yaml.load_file("data/tinycat.yml")
+library(base64)
+#warnings()
+#head(yamldata)
+#dataurl <- yamldata['files']['sources']
+dataurl <- yamldata$files$sources[1][['dataURL']]
+proof<-yamldata[['files']][['sources']]
+for (image in yamldata[['files']][['sources']])
+{
+print(image$title)
+}
+
+names(sources)
+
+
