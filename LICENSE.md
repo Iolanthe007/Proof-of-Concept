@@ -1,5 +1,7 @@
 Copyright Bree Kelly 2019
+
 Proof of Concept by Bree Kelly is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+
 Please consult https://creativecommons.org/licenses/by-sa/4.0/ for a copy of the license.
 
 License Summary:
